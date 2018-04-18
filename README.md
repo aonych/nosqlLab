@@ -25,16 +25,16 @@ Przykład wywołania skryptu dla licencji *1H45*
 ./countDaysToExpirationDate.sh 1H45
 ```
 
-Powodzenie: [liczbaDniDoWygasniecia.png](https://github.com/nosql/app-cli-aonych/blob/master/grafiki/liczbaDniDoWygasniecia.PNG)
+Powodzenie: ![liczbaDniDoWygasniecia.png](grafiki/liczbaDniDoWygasniecia.PNG)
 
-Licencja wygasła: [licencjaWygasla.png](https://github.com/nosql/app-cli-aonych/blob/master/grafiki/licencjaWygasla.PNG)
+Licencja wygasła: ![licencjaWygasla.png](grafiki/licencjaWygasla.PNG)
 
-Błędny numer licencji: [niepoprawnyNumerLicencji.png](https://github.com/nosql/app-cli-aonych/blob/master/grafiki/niepoprawnyNumerLicencji.PNG)
+Błędny numer licencji: ![niepoprawnyNumerLicencji.png](grafiki/niepoprawnyNumerLicencji.PNG)
 
 
 #### info.sh
   Skrypt odpowiada za wygenerowanie pliku tekstowego z informacjami na temat kolekcji. W pliku tym znajduje się nazwa bazy, kolekcji, wielkość kolekcji oraz nazwy wszystkich kolumn w kolekcji.
-  [collectionInfo.txt](https://github.com/nosql/app-cli-aonych/blob/master/collectionInfo.txt)
+  [collectionInfo.txt](collectionInfo.txt)
   ```
   Nazwa bazy danych: test
 Nazwa kolekcji: vehicles
@@ -215,7 +215,14 @@ colNumber: 5805825 type: "standalone" write_concern: "default" real: 209.456 use
 Odmienne czasy importów danych obu kolekcji wynikają ze znaczej różnicy ich rozmiarów (mazowieckie 1093203 kolumny, vehicles 5805825 kolumn). Czas importu replica set jest ponad 3krotnie większy od czasu importu standalone. Czasy te wydłużały się wraz ze wzrostem obciążenia procesora (np. przy używaniu przeglądarki). Użycie procesora przy replica set wynosiło ok.100% (czasem nawet tą wartość przekraczając). 
 
 Użycie procesora:
-[CPU0](https://github.com/aonych/nosqlLab/blob/master/grafiki/CPU0.PNG)
-[CPU1](https://github.com/aonych/nosqlLab/blob/master/grafiki/CPU1.PNG)
-[CPU2](https://github.com/aonych/nosqlLab/blob/master/grafiki/CPU2.PNG)
-[CPU3](https://github.com/aonych/nosqlLab/blob/master/grafiki/CPU3.PNG)
+#### CPU0
+![CPU0](grafiki/CPU0.PNG)
+
+#### CPU1
+![CPU1](grafiki/CPU1.PNG)
+
+#### CPU2
+![CPU2](grafiki/CPU2.PNG)
+
+#### CPU3
+![CPU3](grafiki/CPU3.PNG)
