@@ -14,7 +14,7 @@ W folderze *bin* znajdują się skrypty do uruchomienia aplikacji.
 
 #### vehicleTypesPieChartToImage.sh
   Skrypt odpowiada za wygenerowanie wykresu kołowego przedstawiającego ilość pojazdów danego typu. Wykres ten zapisywany jest jako obrazek w formacie *.jpeg*.
-  [PieChart.jpeg](https://github.com/nosql/app-cli-aonych/blob/master/PieChart.jpeg)
+  [PieChart.jpeg](PieChart.jpeg)
   
   
 #### countDaysToExpirationDate.sh
