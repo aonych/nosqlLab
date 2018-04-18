@@ -1,0 +1,52 @@
+Processing blobs: 59
+Processing trees: 69
+Processing commits: 47
+Matching commits to trees: 47
+Processing annotated tags: 0
+Processing references: 3
+| Name                         | Value     | Level of concern               |
+| ---------------------------- | --------- | ------------------------------ |
+| Overall repository size      |           |                                |
+| * Commits                    |           |                                |
+|   * Count                    |    47     |                                |
+|   * Total size               |  28.8 KiB |                                |
+| * Trees                      |           |                                |
+|   * Count                    |    69     |                                |
+|   * Total size               |  7.10 KiB |                                |
+|   * Total tree entries       |   191     |                                |
+| * Blobs                      |           |                                |
+|   * Count                    |    59     |                                |
+|   * Total size               |  13.2 MiB |                                |
+| * Annotated tags             |           |                                |
+|   * Count                    |     0     |                                |
+| * References                 |           |                                |
+|   * Count                    |     3     |                                |
+|                              |           |                                |
+| Biggest objects              |           |                                |
+| * Commits                    |           |                                |
+|   * Maximum size         [1] |   726 B   |                                |
+|   * Maximum parents      [2] |     1     |                                |
+| * Trees                      |           |                                |
+|   * Maximum entries      [3] |    12     |                                |
+| * Blobs                      |           |                                |
+|   * Maximum size         [4] |  13.0 MiB | *                              |
+|                              |           |                                |
+| History structure            |           |                                |
+| * Maximum history depth      |    47     |                                |
+| * Maximum tag depth          |     0     |                                |
+|                              |           |                                |
+| Biggest checkouts            |           |                                |
+| * Number of directories  [5] |     7     |                                |
+| * Maximum path depth     [5] |     5     |                                |
+| * Maximum path length    [5] |    53 B   |                                |
+| * Number of files        [5] |    22     |                                |
+| * Total size of files    [6] |  13.0 MiB |                                |
+| * Number of symlinks         |     0     |                                |
+| * Number of submodules       |     0     |                                |
+
+[1]  e4f7dcf1b45d9b78320c86df3e45e22f30c0cecb
+[2]  7aa559d91c236a8210c8345956d4a34820cb68df (refs/heads/master)
+[3]  6818264ec28da71882df4fe215eafe73e26d883d (refs/heads/master:bin)
+[4]  3d49e455305220ef783eb70f119baab32054ff1f (e74aab93456a31090f2bdd379ad9c5ad42ab58f0:data/medallionVehicles.gz)
+[5]  7e092397c2c78ab7fc85e9f664c606dba8bf17af (refs/heads/master^{tree})
+[6]  61c58f091ca7838f3f1578281f76230bd90221a9 (e74aab93456a31090f2bdd379ad9c5ad42ab58f0^{tree})

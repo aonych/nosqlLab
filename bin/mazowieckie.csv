@@ -1,0 +1,5 @@
+colNumber: 1093203 type: "standalone" write_concern: "default" real: 53.539 user: 5.14 sys: 0.765
+colNumber: 1093203 type: "standalone" write_concern: "default" real: 57.946 user: 5.356 sys: 0.92
+colNumber: 1093203 type: "standalone" write_concern: "default" real: 58.082 user: 5.421 sys: 0.92
+colNumber: 1093203 type: "standalone" write_concern: "default" real: 59.251 user: 5.546 sys: 0.796
+colNumber: 1093203 type: "standalone" write_concern: "default" real: 53.196 user: 5.468 sys: 0.982

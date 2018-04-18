@@ -1,0 +1,21 @@
+Nazwa bazy danych: test
+Nazwa kolekcji: vehicles
+Wielkosc kolekcji: 5805825
+Nazwy kolumn: 
+		 Expiration Date
+		 License Number
+		 Agent Address
+		 Vehicle Type
+		 DMV License Plate Number
+		 Agent Number
+		 Agent Name
+		 Name
+		 Agent Telephone Number
+		 Vehicle VIN Number
+		 Model Year
+		 Last Date Updated
+		 Agent Website Address
+		 Last Time Updated
+		 Medallion Type
+		 _id
+		 Current Status
