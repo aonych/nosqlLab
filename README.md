@@ -210,3 +210,12 @@ colNumber: 5805825 type: "standalone" write_concern: "default" real: 208.459 use
 colNumber: 5805825 type: "standalone" write_concern: "default" real: 208.882 user: 7.843 sys: 0.906
 colNumber: 5805825 type: "standalone" write_concern: "default" real: 209.456 user: 8.515 sys: 1.092
 ```
+
+### Wnioski
+Odmienne czasy importów danych obu kolekcji wynikają ze znaczej różnicy ich rozmiarów (mazowieckie 1093203 kolumny, vehicles 5805825 kolumn). Czas importu replica set jest ponad 3krotnie większy od czasu importu standalone. Użycie procesora przy replica set wynosiło ok.100% (czasem nawet tą wartość przekraczając). 
+
+Użycie procesora:
+[CPU0](https://github.com/aonych/nosqlLab/blob/master/grafiki/CPU0.PNG)
+[CPU1](https://github.com/aonych/nosqlLab/blob/master/grafiki/CPU1.PNG)
+[CPU2](https://github.com/aonych/nosqlLab/blob/master/grafiki/CPU2.PNG)
+[CPU3](https://github.com/aonych/nosqlLab/blob/master/grafiki/CPU3.PNG)
